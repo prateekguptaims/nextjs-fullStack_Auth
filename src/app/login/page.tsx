@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react'
 
   
 const login = () => {
-  const router=useRouter()
+  const router=useRouter();
     const [user, setUser] = useState({
         email:"",
         password:"",
